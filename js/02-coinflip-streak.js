@@ -11,4 +11,12 @@ To complete the game follow the steps outlined below:
     If it’s 1, write out “Tails” into the console window.
     5)Set the condition of the do while loop to end once the coinFlip becomes “Tails”. */
 
+let coinFlip;
 
+do{
+    coinFlip = Math.round(Math.random())
+    if (coinFlip === 0){
+        console.log("Heads")
+    } else 
+        console.log("Tails")
+} while (coinFlip !== 1 )
